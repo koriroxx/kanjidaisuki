@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#game {
+	width: 400px;
+	padding: 30px;
+}
+
+#game p {
+	margin: 0;
+	padding: 0;
+}
+
+square.square {
+	border: 1px solid #777777;
+	font-size: 0px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	margin: 0px;
+	line-height: 0px;
+	margin-right: -1px;
+}
+
+div.row {
+	display: block;
+	clear: both;
+}
+
+br {
+	line-height: 0px;
+	padding: 0px;
+	height: 0px;
+	margin: 0px;
+	margin-top:-10px;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
+
+.black {
+	background-color: #535353;
+}
+
+.red {
+	background-color: #EB6969;
+}
